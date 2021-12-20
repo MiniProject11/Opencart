@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.testcases.LoginTest">
+        <methods>
+          <include name="Validation_Blankspace"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="generateReport"/>
+          <include name="ValidationIncorrect_Email"/>
+          <include name="tearDownextent"/>
+          <include name="tearDownextent"/>
+        </methods>
+      </class> <!-- com.testcases.LoginTest -->
+      <class name="com.testcases.RegisterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="tearDownextent"/>
+        </methods>
+      </class> <!-- com.testcases.RegisterTest -->
+      <class name="com.testcases.checkout">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="tearDownextent"/>
+        </methods>
+      </class> <!-- com.testcases.checkout -->
+      <class name="com.testcases.validation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="tearDownextent"/>
+        </methods>
+      </class> <!-- com.testcases.validation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
