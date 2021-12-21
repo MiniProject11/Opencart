@@ -1,0 +1,336 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "HJNZL001868",
+    "children" : [ {
+      "name" : "25888-MainThread",
+      "children" : [ {
+        "name" : "TestCart.test_getCartContent",
+        "uid" : "1d768ea9320b9b35",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067703141,
+          "stop" : 1640067703711,
+          "duration" : 570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestLoginAPI.test_createSession",
+        "uid" : "5588d75dc76ac601",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067705030,
+          "stop" : 1640067705453,
+          "duration" : 423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestCart.test_editProductQuantity",
+        "uid" : "46be23191ba1eaff",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067701747,
+          "stop" : 1640067702305,
+          "duration" : 558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestCart.test_removeProductFromCart",
+        "uid" : "b6e2696e61c68f72",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067702405,
+          "stop" : 1640067703030,
+          "duration" : 625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestAccountInformation.test_change_password",
+        "uid" : "53bfdeb992b28e89",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067619015,
+          "stop" : 1640067630834,
+          "duration" : 11819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestLoginAPI.test_createSession",
+        "uid" : "554a7cfa519db814",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067703816,
+          "stop" : 1640067704105,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestLogin.test_login",
+        "uid" : "f9288123443d96ec",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067582237,
+          "stop" : 1640067597454,
+          "duration" : 15217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestCustomer.test_setCustomer",
+        "uid" : "455b0934c2034de7",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067706954,
+          "stop" : 1640067707293,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestLoginAPI.test_createSession",
+        "uid" : "915d4fdab5fa7504",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067707665,
+          "stop" : 1640067707992,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestAccountInformation.test_edit_address",
+        "uid" : "610ab96f96e7535",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067652805,
+          "stop" : 1640067666239,
+          "duration" : 13434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestLoginAPI.test_createSession",
+        "uid" : "4f363535586ec0ab",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067706688,
+          "stop" : 1640067706901,
+          "duration" : 213
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestAccountInformation.test_edit_account_information",
+        "uid" : "2a77449c28a981b8",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067600992,
+          "stop" : 1640067615506,
+          "duration" : 14514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestAccountInformation.test_add_address",
+        "uid" : "d8af7e142fc17794",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067634282,
+          "stop" : 1640067649686,
+          "duration" : 15404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestCurrency.test_changeCurrency",
+        "uid" : "19835f5a8ac61aba",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067705570,
+          "stop" : 1640067706516,
+          "duration" : 946
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestCart.test_addToCart",
+        "uid" : "e52a2fb7f7c716c",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640067700330,
+          "stop" : 1640067701658,
+          "duration" : 1328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestForgotPassword.test_tC001",
+        "uid" : "7ef8428e3295d142",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640067686858,
+          "stop" : 1640067696783,
+          "duration" : 9925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestLoginAPI.test_createSession",
+        "uid" : "153e9bd996eb327",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067707351,
+          "stop" : 1640067707577,
+          "duration" : 226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestAccountInformation.test_delete_address",
+        "uid" : "8c2291061218e795",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067669825,
+          "stop" : 1640067683463,
+          "duration" : 13638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestCoupon.test_applyCoupon",
+        "uid" : "ecfce1e7163d6eae",
+        "parentUid" : "57074d529ea0f327a24bbe0255813cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640067704217,
+          "stop" : 1640067704883,
+          "duration" : 666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57074d529ea0f327a24bbe0255813cfc"
+    } ],
+    "uid" : "0aa222f473febd13d1b60a83aee1eb25"
+  } ]
+}

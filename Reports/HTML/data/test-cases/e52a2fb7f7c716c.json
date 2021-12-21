@@ -1,0 +1,71 @@
+{
+  "uid" : "e52a2fb7f7c716c",
+  "name" : "TestCart.test_addToCart",
+  "fullName" : "test_CartAPI.TestCart.test_addToCart",
+  "historyId" : "c4891d26ba4f6729a0a77e5801770694",
+  "time" : {
+    "start" : 1640067700330,
+    "stop" : 1640067701658,
+    "duration" : 1328
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'success' in {'error': {'store': 'Product can not be bought from the store you have choosen!'}}\n +  where {'error': {'store': 'Product can not be bought from the store you have choosen!'}} = <test_CartAPI.TestCart object at 0x000001C70182AB90>.response",
+  "statusTrace" : "self = <test_CartAPI.TestCart object at 0x000001C70182AB90>\n\n    def test_addToCart(self):\n        product_id = 10\n        quantity = 1\n        self.response = self.session.post(\n            APITestData.BASE_URL + APITestData.ADD_TO_CART_URL,\n            params={'api_token': self.login.getAPIToken()}, #self.login.getAPIToken()\n            data={\n                'product_id': product_id,\n                'quantity': quantity\n            }\n        ).text\n    \n        self.response = json.loads(self.response)\n>       assert \"success\" in self.response\nE       AssertionError: assert 'success' in {'error': {'store': 'Product can not be bought from the store you have choosen!'}}\nE        +  where {'error': {'store': 'Product can not be bought from the store you have choosen!'}} = <test_CartAPI.TestCart object at 0x000001C70182AB90>.response\n\nRestAPITesting\\test_CartAPI.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HJNZL001868"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "25888-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_CartAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "test_CartAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCart.test_addToCart"
+  }, {
+    "name" : "package",
+    "value" : "test_CartAPI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e52a2fb7f7c716c.json",
+  "parameterValues" : [ ]
+}

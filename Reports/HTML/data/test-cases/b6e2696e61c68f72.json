@@ -1,0 +1,65 @@
+{
+  "uid" : "b6e2696e61c68f72",
+  "name" : "TestCart.test_removeProductFromCart",
+  "fullName" : "test_CartAPI.TestCart.test_removeProductFromCart",
+  "historyId" : "b3c8b070c98543ea657922669d68249d",
+  "time" : {
+    "start" : 1640067702405,
+    "stop" : 1640067703030,
+    "duration" : 625
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HJNZL001868"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "25888-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_CartAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "test_CartAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCart.test_removeProductFromCart"
+  }, {
+    "name" : "package",
+    "value" : "test_CartAPI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6e2696e61c68f72.json",
+  "parameterValues" : [ ]
+}

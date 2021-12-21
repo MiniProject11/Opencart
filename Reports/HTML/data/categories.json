@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: ",
+      "children" : [ {
+        "name" : "TestForgotPassword.test_tC001",
+        "uid" : "7ef8428e3295d142",
+        "parentUid" : "fcd162b570a8b3223f492d623fcdc98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640067686858,
+          "stop" : 1640067696783,
+          "duration" : 9925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcd162b570a8b3223f492d623fcdc98d"
+    }, {
+      "name" : "AssertionError: assert 'success' in {'error': {'store': 'Product can not be bought from the store you have choosen!'}}\n +  where {'error': {'store': 'Product can not be bought from the store you have choosen!'}} = <test_CartAPI.TestCart object at 0x000001C70182AB90>.response",
+      "children" : [ {
+        "name" : "TestCart.test_addToCart",
+        "uid" : "e52a2fb7f7c716c",
+        "parentUid" : "f02b8abc335eadc47d93317a0819e57b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1640067700330,
+          "stop" : 1640067701658,
+          "duration" : 1328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f02b8abc335eadc47d93317a0819e57b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

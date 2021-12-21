@@ -1,0 +1,65 @@
+{
+  "uid" : "8c2291061218e795",
+  "name" : "TestAccountInformation.test_delete_address",
+  "fullName" : "test_AccountInformation.TestAccountInformation.test_delete_address",
+  "historyId" : "2fa3dd026bbd83e9e61495df7c91ee0f",
+  "time" : {
+    "start" : 1640067669825,
+    "stop" : 1640067683463,
+    "duration" : 13638
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HJNZL001868"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "25888-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_AccountInformation"
+  }, {
+    "name" : "testClass",
+    "value" : "test_AccountInformation"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAccountInformation.test_delete_address"
+  }, {
+    "name" : "package",
+    "value" : "test_AccountInformation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c2291061218e795.json",
+  "parameterValues" : [ ]
+}

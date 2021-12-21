@@ -1,0 +1,191 @@
+[ {
+  "uid" : "610ab96f96e7535",
+  "name" : "TestAccountInformation.test_edit_address",
+  "time" : {
+    "start" : 1640067652805,
+    "stop" : 1640067666239,
+    "duration" : 13434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "554a7cfa519db814",
+  "name" : "TestLoginAPI.test_createSession",
+  "time" : {
+    "start" : 1640067703816,
+    "stop" : 1640067704105,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f363535586ec0ab",
+  "name" : "TestLoginAPI.test_createSession",
+  "time" : {
+    "start" : 1640067706688,
+    "stop" : 1640067706901,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d768ea9320b9b35",
+  "name" : "TestCart.test_getCartContent",
+  "time" : {
+    "start" : 1640067703141,
+    "stop" : 1640067703711,
+    "duration" : 570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46be23191ba1eaff",
+  "name" : "TestCart.test_editProductQuantity",
+  "time" : {
+    "start" : 1640067701747,
+    "stop" : 1640067702305,
+    "duration" : 558
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "915d4fdab5fa7504",
+  "name" : "TestLoginAPI.test_createSession",
+  "time" : {
+    "start" : 1640067707665,
+    "stop" : 1640067707992,
+    "duration" : 327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5588d75dc76ac601",
+  "name" : "TestLoginAPI.test_createSession",
+  "time" : {
+    "start" : 1640067705030,
+    "stop" : 1640067705453,
+    "duration" : 423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9288123443d96ec",
+  "name" : "TestLogin.test_login",
+  "time" : {
+    "start" : 1640067582237,
+    "stop" : 1640067597454,
+    "duration" : 15217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "455b0934c2034de7",
+  "name" : "TestCustomer.test_setCustomer",
+  "time" : {
+    "start" : 1640067706954,
+    "stop" : 1640067707293,
+    "duration" : 339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53bfdeb992b28e89",
+  "name" : "TestAccountInformation.test_change_password",
+  "time" : {
+    "start" : 1640067619015,
+    "stop" : 1640067630834,
+    "duration" : 11819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a77449c28a981b8",
+  "name" : "TestAccountInformation.test_edit_account_information",
+  "time" : {
+    "start" : 1640067600992,
+    "stop" : 1640067615506,
+    "duration" : 14514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19835f5a8ac61aba",
+  "name" : "TestCurrency.test_changeCurrency",
+  "time" : {
+    "start" : 1640067705570,
+    "stop" : 1640067706516,
+    "duration" : 946
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e52a2fb7f7c716c",
+  "name" : "TestCart.test_addToCart",
+  "time" : {
+    "start" : 1640067700330,
+    "stop" : 1640067701658,
+    "duration" : 1328
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8af7e142fc17794",
+  "name" : "TestAccountInformation.test_add_address",
+  "time" : {
+    "start" : 1640067634282,
+    "stop" : 1640067649686,
+    "duration" : 15404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c2291061218e795",
+  "name" : "TestAccountInformation.test_delete_address",
+  "time" : {
+    "start" : 1640067669825,
+    "stop" : 1640067683463,
+    "duration" : 13638
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecfce1e7163d6eae",
+  "name" : "TestCoupon.test_applyCoupon",
+  "time" : {
+    "start" : 1640067704217,
+    "stop" : 1640067704883,
+    "duration" : 666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ef8428e3295d142",
+  "name" : "TestForgotPassword.test_tC001",
+  "time" : {
+    "start" : 1640067686858,
+    "stop" : 1640067696783,
+    "duration" : 9925
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6e2696e61c68f72",
+  "name" : "TestCart.test_removeProductFromCart",
+  "time" : {
+    "start" : 1640067702405,
+    "stop" : 1640067703030,
+    "duration" : 625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "153e9bd996eb327",
+  "name" : "TestLoginAPI.test_createSession",
+  "time" : {
+    "start" : 1640067707351,
+    "stop" : 1640067707577,
+    "duration" : 226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

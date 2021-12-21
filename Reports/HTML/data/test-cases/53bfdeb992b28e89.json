@@ -1,0 +1,65 @@
+{
+  "uid" : "53bfdeb992b28e89",
+  "name" : "TestAccountInformation.test_change_password",
+  "fullName" : "test_AccountInformation.TestAccountInformation.test_change_password",
+  "historyId" : "124a26fdfad566ea3712479a2a331a81",
+  "time" : {
+    "start" : 1640067619015,
+    "stop" : 1640067630834,
+    "duration" : 11819
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HJNZL001868"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "25888-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_AccountInformation"
+  }, {
+    "name" : "testClass",
+    "value" : "test_AccountInformation"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAccountInformation.test_change_password"
+  }, {
+    "name" : "package",
+    "value" : "test_AccountInformation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53bfdeb992b28e89.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,65 @@
+{
+  "uid" : "4f363535586ec0ab",
+  "name" : "TestLoginAPI.test_createSession",
+  "fullName" : "test_CurrencyAPI.TestLoginAPI.test_createSession",
+  "historyId" : "2c3a38a8e644413098f00d587a7255fd",
+  "time" : {
+    "start" : 1640067706688,
+    "stop" : 1640067706901,
+    "duration" : 213
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HJNZL001868"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "25888-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_CurrencyAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "test_CurrencyAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLoginAPI.test_createSession"
+  }, {
+    "name" : "package",
+    "value" : "test_CurrencyAPI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f363535586ec0ab.json",
+  "parameterValues" : [ ]
+}

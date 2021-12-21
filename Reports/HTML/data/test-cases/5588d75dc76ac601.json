@@ -1,0 +1,65 @@
+{
+  "uid" : "5588d75dc76ac601",
+  "name" : "TestLoginAPI.test_createSession",
+  "fullName" : "test_CouponAPI.TestLoginAPI.test_createSession",
+  "historyId" : "db5cb9516c42ff4d522e51f2184c5ed0",
+  "time" : {
+    "start" : 1640067705030,
+    "stop" : 1640067705453,
+    "duration" : 423
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HJNZL001868"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "25888-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_CouponAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "test_CouponAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLoginAPI.test_createSession"
+  }, {
+    "name" : "package",
+    "value" : "test_CouponAPI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5588d75dc76ac601.json",
+  "parameterValues" : [ ]
+}

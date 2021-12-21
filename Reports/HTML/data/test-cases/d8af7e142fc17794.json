@@ -1,0 +1,65 @@
+{
+  "uid" : "d8af7e142fc17794",
+  "name" : "TestAccountInformation.test_add_address",
+  "fullName" : "test_AccountInformation.TestAccountInformation.test_add_address",
+  "historyId" : "7f004ec929cf3d04b8a7ffb77fe29553",
+  "time" : {
+    "start" : 1640067634282,
+    "stop" : 1640067649686,
+    "duration" : 15404
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HJNZL001868"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "25888-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_AccountInformation"
+  }, {
+    "name" : "testClass",
+    "value" : "test_AccountInformation"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAccountInformation.test_add_address"
+  }, {
+    "name" : "package",
+    "value" : "test_AccountInformation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8af7e142fc17794.json",
+  "parameterValues" : [ ]
+}

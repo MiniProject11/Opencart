@@ -1,0 +1,90 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1640067700330" stop="1640067704105">
+  <name>test_CartAPI</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1640067700330" status="failed" stop="1640067701658">
+      <name>TestCart.test_addToCart</name>
+      <failure>
+        <message>AssertionError: assert 'success' in {'error': {'store': 'Product can not be bought from the store you have choosen!'}}
+ +  where {'error': {'store': 'Product can not be bought from the store you have choosen!'}} = &lt;test_CartAPI.TestCart object at 0x000001C70182AB90&gt;.response</message>
+        <stack-trace>self = &lt;test_CartAPI.TestCart object at 0x000001C70182AB90&gt;
+
+    def test_addToCart(self):
+        product_id = 10
+        quantity = 1
+        self.response = self.session.post(
+            APITestData.BASE_URL + APITestData.ADD_TO_CART_URL,
+            params={'api_token': self.login.getAPIToken()}, #self.login.getAPIToken()
+            data={
+                'product_id': product_id,
+                'quantity': quantity
+            }
+        ).text
+    
+        self.response = json.loads(self.response)
+&gt;       assert "success" in self.response
+E       AssertionError: assert 'success' in {'error': {'store': 'Product can not be bought from the store you have choosen!'}}
+E        +  where {'error': {'store': 'Product can not be bought from the store you have choosen!'}} = &lt;test_CartAPI.TestCart object at 0x000001C70182AB90&gt;.response
+
+RestAPITesting\test_CartAPI.py:25: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1640067701747" status="passed" stop="1640067702305">
+      <name>TestCart.test_editProductQuantity</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1640067702405" status="passed" stop="1640067703030">
+      <name>TestCart.test_removeProductFromCart</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1640067703141" status="passed" stop="1640067703711">
+      <name>TestCart.test_getCartContent</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1640067703816" status="passed" stop="1640067704105">
+      <name>TestLoginAPI.test_createSession</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

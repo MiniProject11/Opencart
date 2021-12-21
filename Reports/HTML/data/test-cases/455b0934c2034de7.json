@@ -1,0 +1,65 @@
+{
+  "uid" : "455b0934c2034de7",
+  "name" : "TestCustomer.test_setCustomer",
+  "fullName" : "test_CustomerAPI.TestCustomer.test_setCustomer",
+  "historyId" : "a38cd807ab102d126b0c81ea130c0e35",
+  "time" : {
+    "start" : 1640067706954,
+    "stop" : 1640067707293,
+    "duration" : 339
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HJNZL001868"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "25888-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_CustomerAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "test_CustomerAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCustomer.test_setCustomer"
+  }, {
+    "name" : "package",
+    "value" : "test_CustomerAPI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "455b0934c2034de7.json",
+  "parameterValues" : [ ]
+}

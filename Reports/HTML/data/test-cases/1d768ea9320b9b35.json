@@ -1,0 +1,65 @@
+{
+  "uid" : "1d768ea9320b9b35",
+  "name" : "TestCart.test_getCartContent",
+  "fullName" : "test_CartAPI.TestCart.test_getCartContent",
+  "historyId" : "e7ab5557868be109fdfbb4a71ea495fd",
+  "time" : {
+    "start" : 1640067703141,
+    "stop" : 1640067703711,
+    "duration" : 570
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HJNZL001868"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "25888-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_CartAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "test_CartAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCart.test_getCartContent"
+  }, {
+    "name" : "package",
+    "value" : "test_CartAPI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d768ea9320b9b35.json",
+  "parameterValues" : [ ]
+}

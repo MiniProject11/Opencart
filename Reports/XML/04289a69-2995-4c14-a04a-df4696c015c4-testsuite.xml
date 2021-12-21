@@ -1,0 +1,78 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1640067582237" stop="1640067683463">
+  <name>test_AccountInformation</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1640067582237" status="passed" stop="1640067597454">
+      <name>TestLogin.test_login</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1640067600992" status="passed" stop="1640067615506">
+      <name>TestAccountInformation.test_edit_account_information</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1640067619015" status="passed" stop="1640067630834">
+      <name>TestAccountInformation.test_change_password</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1640067634282" status="passed" stop="1640067649686">
+      <name>TestAccountInformation.test_add_address</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1640067652805" status="passed" stop="1640067666239">
+      <name>TestAccountInformation.test_edit_address</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1640067669825" status="passed" stop="1640067683463">
+      <name>TestAccountInformation.test_delete_address</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

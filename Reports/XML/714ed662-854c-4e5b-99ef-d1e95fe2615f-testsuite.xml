@@ -1,0 +1,45 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1640067686858" stop="1640067696783">
+  <name>test_ForgotPassword</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1640067686858" status="failed" stop="1640067696783">
+      <name>TestForgotPassword.test_tC001</name>
+      <failure>
+        <message>AssertionError: </message>
+        <stack-trace>self = &lt;test_ForgotPassword.TestForgotPassword object at 0x000001C70161DD80&gt;
+
+    def test_tC001(self):
+      loginPage = LoginPage(self.driver)
+      loginPage.forgotPassword()
+      forgotPasswordPage = ForgotPasswordPage(self.driver)
+      forgotPasswordPage.setEmail("MayankJatav7898@GMail.Com")
+      forgotPasswordPage.clickContinueButton()
+      #self.assert_element_text(Locators.ALERT, "An email with a confirmation link has been sent your email address.")
+&gt;     self.assert_element_text(Locators.ALERT, "An email with a confirmation link has been sent your email address")
+
+test_ForgotPassword.py:23: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;test_ForgotPassword.TestForgotPassword object at 0x000001C70161DD80&gt;
+by_locator = ('css selector', '.alert')
+element_text = 'An email with a confirmation link has been sent your email address'
+
+    def assert_element_text(self, by_locator, element_text):
+        web_element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(by_locator))
+&gt;       assert web_element.text == element_text
+E       AssertionError
+
+..\Resources\BasicActions.py:41: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="25888-MainThread"/>
+        <label name="host" value="HJNZL001868"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

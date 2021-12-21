@@ -1,0 +1,71 @@
+{
+  "uid" : "7ef8428e3295d142",
+  "name" : "TestForgotPassword.test_tC001",
+  "fullName" : "test_ForgotPassword.TestForgotPassword.test_tC001",
+  "historyId" : "9f45f5e48e99d78ba1bdbb12ef920f76",
+  "time" : {
+    "start" : 1640067686858,
+    "stop" : 1640067696783,
+    "duration" : 9925
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: ",
+  "statusTrace" : "self = <test_ForgotPassword.TestForgotPassword object at 0x000001C70161DD80>\n\n    def test_tC001(self):\n      loginPage = LoginPage(self.driver)\n      loginPage.forgotPassword()\n      forgotPasswordPage = ForgotPasswordPage(self.driver)\n      forgotPasswordPage.setEmail(\"MayankJatav7898@GMail.Com\")\n      forgotPasswordPage.clickContinueButton()\n      #self.assert_element_text(Locators.ALERT, \"An email with a confirmation link has been sent your email address.\")\n>     self.assert_element_text(Locators.ALERT, \"An email with a confirmation link has been sent your email address\")\n\ntest_ForgotPassword.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_ForgotPassword.TestForgotPassword object at 0x000001C70161DD80>\nby_locator = ('css selector', '.alert')\nelement_text = 'An email with a confirmation link has been sent your email address'\n\n    def assert_element_text(self, by_locator, element_text):\n        web_element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(by_locator))\n>       assert web_element.text == element_text\nE       AssertionError\n\n..\\Resources\\BasicActions.py:41: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "HJNZL001868"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "25888-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_ForgotPassword"
+  }, {
+    "name" : "testClass",
+    "value" : "test_ForgotPassword"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestForgotPassword.test_tC001"
+  }, {
+    "name" : "package",
+    "value" : "test_ForgotPassword"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7ef8428e3295d142.json",
+  "parameterValues" : [ ]
+}
