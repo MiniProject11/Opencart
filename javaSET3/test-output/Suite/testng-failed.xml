@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="testCASES.TestCases">
+        <methods>
+          <include name="PasswordCheck"/>
+          <include name="exceed"/>
+          <include name="passwordLen"/>
+          <include name="reviewGive"/>
+          <include name="profileCHek"/>
+          <include name="Navigate"/>
+          <include name="rediret"/>
+          <include name="CategoryProduct"/>
+          <include name="RedirectingPage"/>
+          <include name="ErrorLog"/>
+          <include name="DatadrivenApproach"/>
+          <include name="LogCheckOption"/>
+          <include name="Validatelogo"/>
+          <include name="searchCheck"/>
+          <include name="setup"/>
+          <include name="loginApp"/>
+          <include name="displayCat"/>
+        </methods>
+      </class> <!-- testCASES.TestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

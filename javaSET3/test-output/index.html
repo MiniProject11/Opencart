@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Eclipse_MiniProject\POM_MiniPROJECT\Reports\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="CategoryProduct">CategoryProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="DatadrivenApproach(FakeId, Id#8700mob)">DatadrivenApproach(FakeId, Id#8700mob)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="DatadrivenApproach(priya@hotmail.com, priya546#Pri)">DatadrivenApproach(priya@hotmail.com, priya546#Pri)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="DatadrivenApproach(Laprisy Jamaika, jammy098)">DatadrivenApproach(Laprisy Jamaika, jammy098)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="DatadrivenApproach(kumkum@gmail.com, 87699567#45)">DatadrivenApproach(kumkum@gmail.com, 87699567#45)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="DatadrivenApproach(Shanu@gmail.com, lil342)">DatadrivenApproach(Shanu@gmail.com, lil342)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="DatadrivenApproach(Sud@gmail.com, 1234)">DatadrivenApproach(Sud@gmail.com, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="DatadrivenApproach(Lily@gmail.com, kittyPop987)">DatadrivenApproach(Lily@gmail.com, kittyPop987)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="DatadrivenApproach(Bhaibav@yahoo.com, bhai345)">DatadrivenApproach(Bhaibav@yahoo.com, bhai345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="DatadrivenApproach(JohnRambo@gmail.com, John09675)">DatadrivenApproach(JohnRambo@gmail.com, John09675)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="DatadrivenApproach(Shan@gmail.com, sandy123)">DatadrivenApproach(Shan@gmail.com, sandy123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="ErrorLog">ErrorLog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="LogCheckOption">LogCheckOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="Navigate">Navigate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="PasswordCheck">PasswordCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="RedirectingPage">RedirectingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="Validatelogo">Validatelogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="displayCat">displayCat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="exceed">exceed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="loginApp">loginApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="passwordLen">passwordLen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="profileCHek">profileCHek</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="rediret">rediret</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="reviewGive">reviewGive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCASES.TestCases" class="method navigator-link" hash-for-method="searchCheck">searchCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCASES.TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CategoryProduct">
+                  </a> <!-- CategoryProduct -->
+                  <span class="method-name">CategoryProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DatadrivenApproach(FakeId, Id#8700mob)">
+                  </a> <!-- DatadrivenApproach(FakeId, Id#8700mob) -->
+                  <span class="method-name">DatadrivenApproach</span>
+                  <span class="parameters">(FakeId, Id#8700mob)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DatadrivenApproach(priya@hotmail.com, priya546#Pri)">
+                  </a> <!-- DatadrivenApproach(priya@hotmail.com, priya546#Pri) -->
+                  <span class="method-name">DatadrivenApproach</span>
+                  <span class="parameters">(priya@hotmail.com, priya546#Pri)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DatadrivenApproach(Laprisy Jamaika, jammy098)">
+                  </a> <!-- DatadrivenApproach(Laprisy Jamaika, jammy098) -->
+                  <span class="method-name">DatadrivenApproach</span>
+                  <span class="parameters">(Laprisy Jamaika, jammy098)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DatadrivenApproach(kumkum@gmail.com, 87699567#45)">
+                  </a> <!-- DatadrivenApproach(kumkum@gmail.com, 87699567#45) -->
+                  <span class="method-name">DatadrivenApproach</span>
+                  <span class="parameters">(kumkum@gmail.com, 87699567#45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DatadrivenApproach(Shanu@gmail.com, lil342)">
+                  </a> <!-- DatadrivenApproach(Shanu@gmail.com, lil342) -->
+                  <span class="method-name">DatadrivenApproach</span>
+                  <span class="parameters">(Shanu@gmail.com, lil342)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DatadrivenApproach(Sud@gmail.com, 1234)">
+                  </a> <!-- DatadrivenApproach(Sud@gmail.com, 1234) -->
+                  <span class="method-name">DatadrivenApproach</span>
+                  <span class="parameters">(Sud@gmail.com, 1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DatadrivenApproach(Lily@gmail.com, kittyPop987)">
+                  </a> <!-- DatadrivenApproach(Lily@gmail.com, kittyPop987) -->
+                  <span class="method-name">DatadrivenApproach</span>
+                  <span class="parameters">(Lily@gmail.com, kittyPop987)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DatadrivenApproach(Bhaibav@yahoo.com, bhai345)">
+                  </a> <!-- DatadrivenApproach(Bhaibav@yahoo.com, bhai345) -->
+                  <span class="method-name">DatadrivenApproach</span>
+                  <span class="parameters">(Bhaibav@yahoo.com, bhai345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DatadrivenApproach(JohnRambo@gmail.com, John09675)">
+                  </a> <!-- DatadrivenApproach(JohnRambo@gmail.com, John09675) -->
+                  <span class="method-name">DatadrivenApproach</span>
+                  <span class="parameters">(JohnRambo@gmail.com, John09675)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DatadrivenApproach(Shan@gmail.com, sandy123)">
+                  </a> <!-- DatadrivenApproach(Shan@gmail.com, sandy123) -->
+                  <span class="method-name">DatadrivenApproach</span>
+                  <span class="parameters">(Shan@gmail.com, sandy123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ErrorLog">
+                  </a> <!-- ErrorLog -->
+                  <span class="method-name">ErrorLog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogCheckOption">
+                  </a> <!-- LogCheckOption -->
+                  <span class="method-name">LogCheckOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Navigate">
+                  </a> <!-- Navigate -->
+                  <span class="method-name">Navigate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PasswordCheck">
+                  </a> <!-- PasswordCheck -->
+                  <span class="method-name">PasswordCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RedirectingPage">
+                  </a> <!-- RedirectingPage -->
+                  <span class="method-name">RedirectingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validatelogo">
+                  </a> <!-- Validatelogo -->
+                  <span class="method-name">Validatelogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayCat">
+                  </a> <!-- displayCat -->
+                  <span class="method-name">displayCat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="exceed">
+                  </a> <!-- exceed -->
+                  <span class="method-name">exceed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginApp">
+                  </a> <!-- loginApp -->
+                  <span class="method-name">loginApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passwordLen">
+                  </a> <!-- passwordLen -->
+                  <span class="method-name">passwordLen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="profileCHek">
+                  </a> <!-- profileCHek -->
+                  <span class="method-name">profileCHek</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rediret">
+                  </a> <!-- rediret -->
+                  <span class="method-name">rediret</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewGive">
+                  </a> <!-- reviewGive -->
+                  <span class="method-name">reviewGive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCheck">
+                  </a> <!-- searchCheck -->
+                  <span class="method-name">searchCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Eclipse_MiniProject\POM_MiniPROJECT\Reports\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;none&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCASES.TestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'reviewGive')
+data.setCell(0, 2, 'testCASES.TestCases')
+data.setCell(0, 3, 11050);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'PasswordCheck')
+data.setCell(1, 2, 'testCASES.TestCases')
+data.setCell(1, 3, 9554);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'rediret')
+data.setCell(2, 2, 'testCASES.TestCases')
+data.setCell(2, 3, 8134);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginApp')
+data.setCell(3, 2, 'testCASES.TestCases')
+data.setCell(3, 3, 7573);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ErrorLog')
+data.setCell(4, 2, 'testCASES.TestCases')
+data.setCell(4, 3, 7530);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Navigate')
+data.setCell(5, 2, 'testCASES.TestCases')
+data.setCell(5, 3, 7094);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'passwordLen')
+data.setCell(6, 2, 'testCASES.TestCases')
+data.setCell(6, 3, 6314);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'profileCHek')
+data.setCell(7, 2, 'testCASES.TestCases')
+data.setCell(7, 3, 6169);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DatadrivenApproach')
+data.setCell(8, 2, 'testCASES.TestCases')
+data.setCell(8, 3, 5615);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'RedirectingPage')
+data.setCell(9, 2, 'testCASES.TestCases')
+data.setCell(9, 3, 5544);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'DatadrivenApproach')
+data.setCell(10, 2, 'testCASES.TestCases')
+data.setCell(10, 3, 5446);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LogCheckOption')
+data.setCell(11, 2, 'testCASES.TestCases')
+data.setCell(11, 3, 5410);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CategoryProduct')
+data.setCell(12, 2, 'testCASES.TestCases')
+data.setCell(12, 3, 5063);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'exceed')
+data.setCell(13, 2, 'testCASES.TestCases')
+data.setCell(13, 3, 4655);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'DatadrivenApproach')
+data.setCell(14, 2, 'testCASES.TestCases')
+data.setCell(14, 3, 4323);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'DatadrivenApproach')
+data.setCell(15, 2, 'testCASES.TestCases')
+data.setCell(15, 3, 4320);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'DatadrivenApproach')
+data.setCell(16, 2, 'testCASES.TestCases')
+data.setCell(16, 3, 4296);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'DatadrivenApproach')
+data.setCell(17, 2, 'testCASES.TestCases')
+data.setCell(17, 3, 4283);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'displayCat')
+data.setCell(18, 2, 'testCASES.TestCases')
+data.setCell(18, 3, 4244);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'searchCheck')
+data.setCell(19, 2, 'testCASES.TestCases')
+data.setCell(19, 3, 4165);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Validatelogo')
+data.setCell(20, 2, 'testCASES.TestCases')
+data.setCell(20, 3, 4064);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'DatadrivenApproach')
+data.setCell(21, 2, 'testCASES.TestCases')
+data.setCell(21, 3, 4058);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'DatadrivenApproach')
+data.setCell(22, 2, 'testCASES.TestCases')
+data.setCell(22, 3, 3930);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'DatadrivenApproach')
+data.setCell(23, 2, 'testCASES.TestCases')
+data.setCell(23, 3, 3799);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'DatadrivenApproach')
+data.setCell(24, 2, 'testCASES.TestCases')
+data.setCell(24, 3, 3737);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCASES.TestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">DatadrivenApproach(Sud@gmail.com, 1234)</span>
+                <span class="method-start">12660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DatadrivenApproach(Shan@gmail.com, sandy123)</span>
+                <span class="method-start">18276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DatadrivenApproach(Shanu@gmail.com, lil342)</span>
+                <span class="method-start">22077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DatadrivenApproach(priya@hotmail.com, priya546#Pri)</span>
+                <span class="method-start">26008 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DatadrivenApproach(Lily@gmail.com, kittyPop987)</span>
+                <span class="method-start">30067 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DatadrivenApproach(Bhaibav@yahoo.com, bhai345)</span>
+                <span class="method-start">34391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DatadrivenApproach(kumkum@gmail.com, 87699567#45)</span>
+                <span class="method-start">38129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DatadrivenApproach(JohnRambo@gmail.com, John09675)</span>
+                <span class="method-start">42450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DatadrivenApproach(Laprisy Jamaika, jammy098)</span>
+                <span class="method-start">47897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DatadrivenApproach(FakeId, Id#8700mob)</span>
+                <span class="method-start">52194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginApp</span>
+                <span class="method-start">56477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCheck</span>
+                <span class="method-start">64052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RedirectingPage</span>
+                <span class="method-start">68219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ErrorLog</span>
+                <span class="method-start">73764 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">reviewGive</span>
+                <span class="method-start">81295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CategoryProduct</span>
+                <span class="method-start">92346 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">displayCat</span>
+                <span class="method-start">97409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">passwordLen</span>
+                <span class="method-start">101654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Navigate</span>
+                <span class="method-start">107969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LogCheckOption</span>
+                <span class="method-start">115064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PasswordCheck</span>
+                <span class="method-start">120474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">profileCHek</span>
+                <span class="method-start">130029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">exceed</span>
+                <span class="method-start">136200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validatelogo</span>
+                <span class="method-start">140857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">rediret</span>
+                <span class="method-start">144923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">153058 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
