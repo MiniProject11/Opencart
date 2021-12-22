@@ -24,14 +24,16 @@ public class RegisterPage {
 	@FindBy(name="agree") WebElement agr;
 
 	@FindBy(css=".btn-primary") WebElement btn;
-	@FindBy(linkText="Continue") WebElement continuebtn;
+	
 
 	@FindBy(css=".list-inline .dropdown-toggle") WebElement toggle;
 
 	@FindBy(linkText="Register") WebElement Rbtn;
 
+	@FindBy(linkText="Logout") WebElement logout;
+	@FindBy(linkText="Continue") WebElement conti;
 
-
+	
 
 	public void RegisterToOpenCart(String firstname,String lastname ,String email, String password,String confPass , String telephone) {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -46,7 +48,7 @@ public class RegisterPage {
 		conf.sendKeys(confPass);
 		agr.click();
 		btn.click();
-		continuebtn.click();
+		
 	}
 
 

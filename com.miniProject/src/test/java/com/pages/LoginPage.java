@@ -33,19 +33,22 @@ public class LoginPage {
 	@FindBy(linkText="Continue") WebElement logoutcon;
 
 	public void loginToOpencart(String usernameApplication,String passApplication) {
-		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		toggle.click();
 		Lbtn.click();
 		email.sendKeys(usernameApplication);
 		password.sendKeys(passApplication);
 		loginbutton.click();
-		//btn.click();
-		//logoutbtn.click();
-		//logoutcon.click();
+		btn.click();
+	
 
 	}
 
-
+public void logout() {
+	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	logoutbtn.click();
+	logoutcon.click();
+}
 
 
 

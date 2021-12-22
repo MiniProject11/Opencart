@@ -4,10 +4,10 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -32,10 +32,7 @@ public class BaseClass {
 		driver=BrowserFactory.startApllication(driver, "Chrome", "http://localhost/opencart/");	    
 
 	}
-	@AfterClass
-	public void tearDown() {
-		driver.quit();
-	}
+	
 
 	public String getPageTitle(){
 		String title = driver.getTitle();
@@ -50,14 +47,14 @@ public class BaseClass {
 	public boolean verifyLoginTitle() {
 		String expectedPageTitle="My Account";
 		return getPageTitle().contains(expectedPageTitle);
-
 	}
 	public boolean verifycheckoutTittle() {
 		String expectedPageTitle="Checkout";
 		return getPageTitle().contains(expectedPageTitle);
 	}
+	@BeforeSuite
 	public void generateReport() {
-		ExtentHtmlReporter reporter=new ExtentHtmlReporter("./Reports/AllReport.html");
+		ExtentHtmlReporter reporter=new ExtentHtmlReporter("./Reports/TestCasesReports.html");
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Host Name", "Mini Project");
@@ -65,12 +62,13 @@ public class BaseClass {
 		extent.setSystemInfo("User Name", "Open Cart");
 		reporter.config().setChartVisibilityOnOpen(true);
 		reporter.config().setDocumentTitle("Automation Testing OF Open Cart");
-		reporter.config().setReportName("Home Page of Application");
-
+		reporter.config().setReportName("OpenCart");
 		reporter.config().setTestViewChartLocation(ChartLocation.TOP);
 		reporter.config().setTheme(Theme.DARK);
 
 		extent.attachReporter(reporter);
+
+
 
 	}
 	@AfterMethod
@@ -89,12 +87,14 @@ public class BaseClass {
 			logger.skip(result.getThrowable());
 		}
 
+
 	}
 	@AfterSuite
 	public void tearDownextent()
-
+	
 	{
 		extent.flush();
+		driver.quit();
 
 	}
 }

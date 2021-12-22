@@ -3,38 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testcases.LoginTest">
+      <class name="DataDriven.ReadExcel">
         <methods>
-          <include name="Validation_Blankspace"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="generateReport"/>
-          <include name="ValidationIncorrect_Email"/>
-          <include name="tearDownextent"/>
-          <include name="tearDownextent"/>
+          <include name="down"/>
+          <include name="setbrowser"/>
+          <include name="demoClass" invocation-numbers="1 2"/>
         </methods>
-      </class> <!-- com.testcases.LoginTest -->
-      <class name="com.testcases.RegisterTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="tearDownextent"/>
-        </methods>
-      </class> <!-- com.testcases.RegisterTest -->
-      <class name="com.testcases.checkout">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="tearDownextent"/>
-        </methods>
-      </class> <!-- com.testcases.checkout -->
-      <class name="com.testcases.validation">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="tearDownextent"/>
-        </methods>
-      </class> <!-- com.testcases.validation -->
+      </class> <!-- DataDriven.ReadExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

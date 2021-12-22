@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 public class report {
-
+	//Take Screenshot if TestCase Failed
 	public static String getScreenshot(WebDriver driver) {
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File src =ts.getScreenshotAs(OutputType.FILE);
